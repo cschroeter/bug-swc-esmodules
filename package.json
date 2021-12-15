@@ -1,0 +1,13 @@
+{
+  "name": "swc-module",
+  "version": "1.0.0",
+  "private": "true",
+  "main": "index.ts",
+  "scripts": {
+    "swc": "node -r @swc-node/register index.ts"
+  },
+  "dependencies": {
+    "@swc-node/register": "1.4.2",
+    "pkg-up": "4.0.0"
+  }
+}
